@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/tourlWebsite/static/css/main.02a26806.css",
+    "main.js": "/tourlWebsite/static/js/main.db68c8fa.js",
+    "static/media/video.mp4": "/tourlWebsite/static/media/video.bcb4f1237720363964b5.mp4",
+    "static/media/manali.jpg": "/tourlWebsite/static/media/manali.3cfce800c4aa7e825888.jpg",
+    "static/media/footer.mp4": "/tourlWebsite/static/media/footer.9f5ed685388cfe7300bb.mp4",
+    "static/media/munnar.jpg": "/tourlWebsite/static/media/munnar.eeffdbb8c4a642335c0a.jpg",
+    "static/media/barcelona.jpg": "/tourlWebsite/static/media/barcelona.15af747941861ca234a1.jpg",
+    "static/media/ooty.jpg": "/tourlWebsite/static/media/ooty.045a47a2425329efbca7.jpg",
+    "static/media/singapore.jpg": "/tourlWebsite/static/media/singapore.2cd6d1140179ace66526.jpg",
+    "static/media/pune.jpg": "/tourlWebsite/static/media/pune.06a53afad4c61df0b01c.jpg",
+    "static/media/malaysia.jpg": "/tourlWebsite/static/media/malaysia.0f411ca87427272f4f1b.jpg",
+    "static/media/kutch.jpg": "/tourlWebsite/static/media/kutch.fb5195f7704afc26c4bd.jpg",
+    "static/media/germany.jpg": "/tourlWebsite/static/media/germany.e308faa0dd3b3eaa386e.jpg",
+    "static/media/agra.jpg": "/tourlWebsite/static/media/agra.b9ee31995c39b53530ec.jpg",
+    "static/media/paris.jpg": "/tourlWebsite/static/media/paris.855426399d3b7a54dc9c.jpg",
+    "static/media/egypt.jpg": "/tourlWebsite/static/media/egypt.7140aa76a7d5e904cc3e.jpg",
+    "static/media/kodaikanal.jpg": "/tourlWebsite/static/media/kodaikanal.034f10fea137b4dc4616.jpg",
+    "index.html": "/tourlWebsite/index.html",
+    "main.02a26806.css.map": "/tourlWebsite/static/css/main.02a26806.css.map",
+    "main.db68c8fa.js.map": "/tourlWebsite/static/js/main.db68c8fa.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.02a26806.css",
+    "static/js/main.db68c8fa.js"
+  ]
+}
