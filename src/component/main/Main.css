@@ -144,4 +144,12 @@
   .secContent .singleDestination {
     height: auto;
   }
+}
+@media screen and (min-width: 840px) {
+  .secContent {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .secContent .singleDestination {
+    height: auto;
+  }
 }/*# sourceMappingURL=Main.css.map */
