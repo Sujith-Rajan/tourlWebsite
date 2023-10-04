@@ -20,7 +20,7 @@ function Main() {
             <div data-aos="fade-right"className="secTitle">
                 <h3 className="title">Most visited destination</h3>
             </div>
-            <div className="secContent grid">
+            <div className="secContent grid" >
                 {data.map((item) => {
                     return (
                         <div key={item.id} className="singleDestination">
