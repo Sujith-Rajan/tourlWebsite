@@ -1,21 +1,30 @@
-import React from "react";
+import React,{useEffect} from "react";
 import "./Main.css";
 
 import { data } from "../../data";
 import { ImLocation2 } from "react-icons/im";
 import {BsClipboard2Check} from "react-icons/bs"
 
+import Aos from 'aos'
+import 'aos/dist/aos.css'
+
 function Main() {
+
+    useEffect(()=>{
+    Aos.init({
+        duration: 2000});
+      },[])
+
     return (
         <section className="main container section">
-            <div className="secTitle">
+            <div data-aos="fade-right"className="secTitle">
                 <h3 className="title">Most visited destination</h3>
             </div>
             <div className="secContent grid">
                 {data.map((item) => {
                     return (
                         <div key={item.id} className="singleDestination">
-                            <div className="imageDiv">
+                            <div className="imageDiv" data-aos="fade-up">
                                 <img src={item.imgSrc} alt={item.destTitle} />
                             </div>
                             <div className="cardInfo">

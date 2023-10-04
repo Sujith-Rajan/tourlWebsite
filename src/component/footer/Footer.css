@@ -100,4 +100,89 @@
 }
 .footer .secContent .inputDiv .btn .icon {
   font-size: 18px;
+}
+.footer .footerCard {
+  position: relative;
+  padding: 1rem 1rem 4rem;
+  gap: 2rem;
+  border-radius: 1rem;
+  background: var(--bodyColor);
+  width: 100%;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-start;
+  overflow: hidden;
+}
+.footer .footerCard .footerIntro {
+  flex-basis: 50%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  row-gap: 0.5rem;
+}
+.footer .footerCard .footerIntro .logoDiv .logo {
+  color: var(--blackColor);
+  font-weight: 600;
+}
+.footer .footerCard .footerIntro .logoDiv .logo .icon {
+  font-size: 25px;
+  color: var(--PrimaryColor);
+  margin-right: 10px;
+}
+.footer .footerCard .footerIntro .footerParagraph {
+  font-size: 13px;
+  color: var(--textColor);
+}
+.footer .footerCard .footerIntro .footerSocial {
+  -moz-column-gap: 0.5rem;
+       column-gap: 0.5rem;
+}
+.footer .footerCard .footerIntro .footerSocial .icon {
+  color: var(--blackColor);
+  font-size: 20px;
+}
+.footer .footerCard .footerIntro .footerSocial .icon:hover {
+  color: var(--PrimaryColor);
+}
+.footer .footerCard .footerLinks {
+  flex-basis: 50%;
+  width: 100%;
+  gap: 1rem;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: space-between;
+}
+.footer .footerCard .footerLinks .linkGroup .groupTitle {
+  display: block;
+  font-weight: 600;
+  color: var(--blackColor);
+  margin-bottom: 0.5rem;
+}
+.footer .footerCard .footerLinks .linkGroup .footerList {
+  font-size: 15px;
+  color: var(--textColor);
+  transition: 0.3s ease-in-out;
+}
+.footer .footerCard .footerLinks .linkGroup .footerList .icon {
+  font-size: 15px;
+  color: var(--greyText);
+}
+.footer .footerCard .footerLinks .linkGroup .footerList:hover {
+  color: var(--PrimaryColor);
+  transform: translateX(7px);
+}
+.footer .footerCard .footerLinks .linkGroup .footerList:hover .icon {
+  color: var(--SecondaryColor);
+}
+.footer .footerCard .footerDiv {
+  flex-direction: column;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #196F70;
+  font-size: 20px;
+  color: var(--whiteColor);
+}
+.footer .disclaimer span {
+  color: var(--whiteColor);
 }/*# sourceMappingURL=Footer.css.map */

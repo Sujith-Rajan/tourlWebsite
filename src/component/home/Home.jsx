@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import './Home.css'
 import video from '../../assets/video.mp4'
 import {GrLocation} from 'react-icons/gr'
@@ -7,24 +7,37 @@ import {FiFacebook} from 'react-icons/fi'
 import {BsInstagram,BsListTask} from 'react-icons/bs'
 import {BiLogoTripAdvisor} from 'react-icons/bi'
 import {TbAppsFilled} from 'react-icons/tb'
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 
 function Home() {
+
+useEffect(()=>{
+Aos.init({
+  duration: 3000,
+  easing: 'ease-in-sine'});
+},[])
+
+
   return (
     <section className='home'>
-      <div className='overlay'></div>
+      <div className='overlay'>
+        
+      </div>
       <video src={video} muted autoPlay loop type="video/mp4"></video>
       <div className="homeContent Container">
         <div className="textDiv">
 
-          <span className="smallText">Our packages</span>
+          <span data-aos="fade-up"
+     className="smallText">Our packages</span>
 
-          <h1 className='homeTitle'>
+          <h1 data-aos="fade-up" className='homeTitle'>
             Search Your Holiday
           </h1>
           
         </div>
 
-        <div className="cardDiv grid">
+        <div data-aos="fade-up" className="cardDiv grid">
 
           <div className="destinationInput">
             <label htmlFor="">Search your destination</label>
@@ -58,7 +71,7 @@ function Home() {
             
 
         </div>
-        <div className="homeFooterIcon flex">
+        <div  data-aos="fade-up" className="homeFooterIcon flex">
           <div className="rightIcons">
            <FiFacebook className='icon'/>
            <BsInstagram className='icon'/>
